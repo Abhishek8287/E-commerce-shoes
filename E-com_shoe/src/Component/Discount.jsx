@@ -15,15 +15,17 @@ function Discount() {
             <p>All Inclusive</p>
             <h1 className="font-bold font-pop  text-5xl md:text-7xl drop-shadow-2xl">
               Get{" "}
-              <span className="bg-red-700 font-pop font-black">Discount</span>{" "}
+              <span className="bg-red-700 font-pop text-black ">Discount</span>{" "}
               For Membership
             </h1>
-            <p className="max-w-[600px] drop-shadow-2xl py-2 text-xl">
-              New membership will get 20% discount for first purchase
-            </p>
-            <button className="bg-red-700 hover:bg-white hover:text-black text-black font-bold p-4 rounded-full border-2 border-black my-3 font-pop">
-              Reserve Now
-            </button>
+            <div className="flex flex-col text-2xl items-center justify-center">
+              <p className="max-w-[600px] drop-shadow-2xl py-4 text-xl">
+                New membership will get 20% discount for first purchase
+              </p>
+              <button className="bg-white hover:bg-black shadow-lg shadow-black hover:text-white text-black font-bold p-4  border-2 border-black my-3 font-pop">
+                Join Now
+              </button>
+            </div>
           </div>
         </div>
       </div>
